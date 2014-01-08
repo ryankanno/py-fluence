@@ -1,6 +1,6 @@
 NOSETESTS ?= nosetests
 
-.PHONY: nosetests nosetests.coverage test flake8
+.PHONY: nosetests nosetests.coverage test test.coverage flake8
 
 test: nosetests flake8
 test.coverage: nosetests.coverage flake8
